@@ -9,7 +9,7 @@ def get_connection():
         port=5432,
         dbname="postgres",
         user="postgres",
-        password="42069"
+        password="your_postgres_passwords"
     )
 
 @app.route("/", methods=["GET"])
